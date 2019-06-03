@@ -19,19 +19,11 @@ public class Tuple {
 	}
 	
 	@Override
-	public Tuple clone() {
-		double cpyx = this.getX();
-		double cpyy = this.getY();
-		
-		Tuple copy = new Tuple(cpyx, cpyy);
-		return copy;
-	}
-	
-	@Override
 	public String toString() {
 		return "Tuple["+x+", "+y+"]";
 	}
 	
+	public Tuple() { this(0, 0); }
 	public Tuple(double x, double y) {
 		this.x = x;
 		this.y = y;

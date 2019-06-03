@@ -1,1 +1,1 @@
-﻿javac VFDisplay.java
+javac VFDisplay.java
